@@ -1,0 +1,83 @@
+       html
+        {
+            width: 100%;
+            font-size: 1vw;
+        }
+        td, th
+        {
+			text-align: center;
+			position: relative;
+            border: 1px solid #000000;
+        }
+        table
+        {
+			width: 100%;
+			height: 100%;
+        }
+        .magent
+        {
+           background-color: #FF00FF;
+        }
+        .blue_white
+        {
+            background-color:  #66b3ff;
+        }
+        .blue_bold
+        {
+            background-color: #58FAF4;
+        }
+        .violet
+        {
+            background-color: #8904B1;
+        }
+        .green_bold
+        {
+            background-color: #04B404;
+            
+        }
+        .bold_orange
+        {
+            background-color: #FE9A2E;
+        }
+        .orange
+        {
+            background-color: #ff6600;
+        }
+        .grey
+        {
+            background-color: #848484;
+            
+        }
+        .green
+        {
+            background-color: #2EFE2E;
+        }
+        .yellow
+        {
+            background-color: #F4FA58;
+        }
+        .num
+        {
+            margin: 0;
+			top: 0;
+			right: 0;
+			margin-left: 3px;
+            text-align: left;
+        }
+        .poid
+        {
+            margin: 0;
+			top: 0;
+			right: 0;
+			margin-right: 3px;
+            text-align: right;
+        }
+        .no_border
+        {
+			border: none;
+		}
+        img
+        {
+            display: block;
+            width: 8em;
+        }
