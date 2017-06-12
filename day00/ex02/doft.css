@@ -1,0 +1,235 @@
+html
+{
+    background-color: #505050;
+}
+
+#title_day
+{
+    width: 35em;
+    margin-left: 10px;
+    display: block;
+}
+
+.title_day
+{
+    box-shadow: 8px 8px 10px black; 
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: #909090;
+    width: 76em;
+    height: 150px;
+}
+
+#loupe
+{
+    margin-left: 65em;
+    margin-top: -130px;
+    display: block;
+}
+
+#close
+{
+    margin-left: 80.5em;
+    margin-top: -48px;
+    display: block;
+}
+
+#reload
+{
+    margin-left: 80.5em;
+    margin-top: -130px;
+    width: 1.2em;
+    display: block;
+}
+
+#cluster
+{
+    display: block;
+    width: 47.7em;
+    height: 31.3em;
+    margin-top: -510px;
+    margin-left: 320px;
+}
+
+.cluster
+{
+    height: 32.5em;
+    width: 49em;
+    display: block;
+    box-shadow: 8px 8px 10px black; 
+    margin-left: 310px;
+    border-radius: 10px;
+    background-color: #909090;
+    margin-top: 140px;
+}
+
+.side1
+{
+    display: block;
+    border-radius: 10px;
+    background-color: #909090;
+    box-shadow: 8px 8px 10px black;
+    width: 10em;
+    height: 24em;
+    margin-left: 8.5em;
+    margin-top: -32em;
+}
+
+#avancer
+{
+    width: 4.5em;
+    margin-left: 11em;
+    margin-top: -23em;
+    display: block;
+}
+
+#main
+{
+    width: 4em;
+    margin-left: 11em;
+    margin-top: 0.2em;
+    display: block;
+}
+
+#oeil
+{
+    width: 3.8em;
+    margin-left: 11.2em;
+    margin-top: 0.27em;
+    display: block;
+}
+
+.red_square
+{
+border: solid 4px red;
+width: 3.6em;
+height: 3.5em;
+margin-left: 11em;
+margin-top: -3.6em;
+display: block;
+}
+
+#outil
+{
+    width: 3.8em;
+    margin-left: 11.2em;
+    margin-top: 0.27em;
+    display: block;
+}
+#parler
+{
+    width: 3.8em;
+    margin-left: 11.2em;
+    margin-top: 0.5em;
+    display: block;
+}
+
+.side2
+{
+    display: block;
+    border-radius: 10px;
+    background-color: #909090;
+    box-shadow: 8px 8px 10px black;
+    width: 10em;
+    height: 24em;
+    margin-left: 69.5em;
+    margin-top: -22em;
+}
+
+#book
+{
+    width: 4.5em;
+    margin-left: 72em;
+    margin-top: -23.5em;
+    display: block;
+}
+
+#towel
+{
+    width: 4.5em;
+    margin-left: 72em;
+    display: block;
+}
+
+.repeat
+{
+    width: 8em;
+    height: 4.5em;
+    background-image: url(resources/brick.jpg);
+    margin-left: 70.5em;
+    display: block;
+}
+
+.side3
+{
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #88FF89;
+    box-shadow: 8px 8px 10px black;
+    width: 29em;
+    height: 10em;
+    margin-left: 3.5em;
+    margin-top: 14em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#ital
+{
+    margin-top: -0.8em;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+p
+{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#text
+{
+    border:inset;
+    margin-top: -3em;    
+    margin-left: 5px;
+    width: 350px;
+}
+
+#rep
+{
+position: absolute;
+    top: 83px;
+    left: 370px;
+    width: 78px;
+    height: 18px;
+    border: solid;
+    border-width: 1px;
+    border-color: #A8A4A5 ;
+    font-size: 11px;
+    background-color: #F6F5F3 ;
+    border-radius: 0px;
+    line-height: 100%;
+}
+
+#ombres
+{
+    display: inline-block;
+    text-shadow: 5px 5px 4px red;
+}
+
+.ikea
+{
+    position: absolute;
+    margin-left: 37em;
+    margin-top: 9em;
+}
+
+#ikea, #apple
+{
+    color: transparent;    
+}
+
+.apple
+{
+    position: absolute;
+    margin-left: 61em;
+    margin-top: 8em;
+}
