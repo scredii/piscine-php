@@ -13,5 +13,6 @@ if ($argc > 1)
         if ($tab[$i + 1])
             echo " ";
     }
+    echo "\n";
 }
 ?>

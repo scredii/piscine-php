@@ -1,21 +1,27 @@
 #!/usr/bin/php
 <?php
-    $i = 1;
     $tab = array();
-    while($i < $argc)
+    $full_tab = array();
+    function ft_split($str)
+    {
+        $tab = explode(" ", $str);
+        sort($tab);
+        return($tab);
+    }
+    foreach($argv as $arg)
+    {
+        if ($arg == $argv[0])
         {
-            $arg = preg_replace('/\s+/', ' ', $argv[$i]);
-            $arg = trim($arg);
-            // echo $arg;
-            $tab = array_merge($tab, $arg);
-            $i++;
         }
-        // $tab = explode(" ", $tab);
-        print_r($tab);
-        // sort($tab);
-        foreach ($tab as $key => $val) 
+        else
         {
+            $tab = ft_split($arg);
+            $full_tab = array_merge($tab, $full_tab);
+        }
+    }
+    sort($full_tab);
+    foreach ($full_tab as $key => $val) 
+    {
             echo $val."\n";
-        }
-        //not working
+    }
 ?>
